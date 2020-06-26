@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get install -y figlet
 figlet "Advanced Upgrade Tools"
-echo -e "Welcome to the advanced software updater by <>."
+echo -e "Welcome to the advanced Ubuntu software updater by su-security-tools."
 
 echo -e "KERNEL: "$(uname -r)
 echo
