@@ -29,7 +29,7 @@ echo
 figlet Done
 echo
 echo -e "\e[32m\e[1mREBOOT:\e[0m"
-read -p "It is very much advisable to reboot after a system upgrade. Reboot now? <Y/n> " prompt
+read -p "It is very much advisable to reboot after a system upgrade. Reboot now? <y/N> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
   sudo systemctl reboot
