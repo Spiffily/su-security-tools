@@ -12,6 +12,15 @@ NOTE: To change the pager, change the end of line 27 to less or more. You can al
 ## updater-advanced
 updater-advanced.sh is a tool for updating and upgrading an Ubuntu system to latest LTS. Is mostly automated. Recommended to run as root or in a root shell.
 
+## proc-overview
+proc-overview.sh is a script to view the following in a single pager:
+- The active network processes (`sudo netstat -antpu`)
+- The full system processes tree (`sudo pstree -p`)
+- The systemctl status (`sudo systemctl status`)
+
+## tools-setup
+tools-setup.sh simply installs figlet ('cause why not?), htop and nethogs. You can also just run `sudo apt-get install -y figlet htop nethogs`.
+
 ## pam-config
 __IS NOT FUNCTIONAL. DO NOT USE.__
 
