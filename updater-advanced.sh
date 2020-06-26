@@ -32,7 +32,7 @@ echo -e "\e[32m\e[1mREBOOT:\e[0m"
 read -p "It is very much advisable to reboot after a system upgrade. Reboot now? <Y/n> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
-  sudo 
+  sudo systemctl reboot
 else
   exit 0
 fi
